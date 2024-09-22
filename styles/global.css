@@ -21,6 +21,8 @@
    --stroke-highlight: #f3541c;
    --semantic-error: #dc2626;
 
+
+
 }
 
 body {
@@ -28,6 +30,8 @@ body {
 
    font: var(--text);
    color: var(--text-secondary);
+
+   
 }
 
 h1, h2 {

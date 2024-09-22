@@ -1,7 +1,13 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
 :root {
    --font-family: 'Poppins', sans-serif;
    --text: 400 1rem/1.5 var(--font-family);
-   --text: 400 .875rem/1.4 var(--font-family);
+   --text-sm: 400 .875rem/1.4 var(--font-family);
 
    --text-primary: #232524;
    --text-secondary: #57534e;
@@ -15,4 +21,8 @@
    --stroke-highlight: #f3541c;
    --semantic-error: #dc2626;
 
+}
+
+body {
+   overflow: hidden;
 }
